@@ -331,7 +331,7 @@ main = do
 
           -- TODO: change this to "put" the timeOfDay into ClockState rather than refresh terminal
           
-          setCursorPosition 0 0
+          setCursorPosition 0 0 
 
           zonedTime <- getZonedTime  
           let timeOfDay = convertToTimeOfDay zonedTime
