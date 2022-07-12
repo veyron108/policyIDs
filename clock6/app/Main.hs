@@ -341,7 +341,7 @@ main = do
 
 
       -------- KEYEVENT --------
-      KeyEvent c -> case c of
+      KeyEvent c -> case c of  
         '1' -> do 
                 setSGR [SetColor Foreground Vivid Green]
         '2' -> do 
